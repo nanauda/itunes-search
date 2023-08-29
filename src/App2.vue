@@ -9,7 +9,7 @@
         </div>
     </div>
  </form>
-    
+ <Reactive />
 </template>
 
 <script setup lang="ts">
@@ -17,6 +17,7 @@ import { defineComponent, reactive, ref, toRefs } from 'vue'
 import { ItunesTypes } from './types/ItunesTypes'
 import { itunesSearch } from './services/iTunesAPI';
 import Album from './components/Album.vue';
+import Reactive from './components/mini/reactive/Reactive.vue';
 
 const albums = reactive<{data: ItunesTypes}>({data: {}})
 const searchText = ref("")
