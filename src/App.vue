@@ -17,7 +17,7 @@
 <script lang="ts">
 import { defineComponent, reactive, ref, toRefs } from "vue";
 import { itunesSearch } from "./services/iTunesAPI";
-import { ItunesTypes } from "./types/ItunesTypes.interface";
+import { ItunesTypes } from "./types/ItunesTypes";
 import TheShowAlbum from "./components/TheShowAlbum.vue";
 
 export default defineComponent({

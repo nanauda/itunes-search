@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
-import { Result } from "../types/ItunesTypes.interface";
+import { Result } from "../types/ItunesTypes";
 
 export default defineComponent({
   props: {
