@@ -11,6 +11,7 @@
  </form>
  <Reactive />
  <TemplateRef />
+ <ChangeEvent />
 </template>
 
 <script setup lang="ts">
@@ -20,6 +21,7 @@ import { itunesSearch } from './services/iTunesAPI';
 import Album from './components/Album.vue';
 import Reactive from './components/mini/reactive/Reactive.vue';
 import TemplateRef from './components/mini/templateRef/TemplateRef.vue';
+import ChangeEvent from './components/mini/event/ChangeEvent.vue';
 
 const albums = reactive<{data: ItunesTypes}>({data: {}})
 const searchText = ref("")
